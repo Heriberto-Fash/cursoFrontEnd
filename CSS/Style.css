@@ -1,0 +1,70 @@
+/* CONCEPTO DE CASCADA */
+
+
+/*p {
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
+
+main {
+    background-color: green;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: violet;
+}
+
+main {
+    background-color: yellowgreen;
+}
+
+body {
+    background-color: white;
+}
+
+*/
+
+
+/*  CONCEPTO DE HERENCIA */
+
+
+/*
+p {
+    background-color: yellow;
+    color: white;
+}
+
+
+//la etiqueta mas proxima a la que se le dio estilo, va a heredar su estilo
+
+a {
+    color: inherit;
+}
+
+*/
+
+
+/*   -   CONCEPTO DE ESPECIFICIDAD   -*/
+
+#identificador {
+    color: lawngreen;
+}
+
+.clase {
+    color: lightslategray;
+}
+
+p {
+    color: lightcoral !important;
+}

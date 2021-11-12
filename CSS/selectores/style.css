@@ -1,0 +1,62 @@
+/*Selector universal*/
+
+
+/*
+* {
+    font-size: 50px;
+    color: pink;
+
+}
+*/
+
+
+/*Selector de etiqueta*/
+
+
+/*individual*/
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+}
+
+p {
+    text-align: center;
+}
+
+
+/*multiple*/
+
+h1,
+p {
+    background-color: steelblue;
+}
+
+h1,
+h2 {
+    color: red;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    color: seagreen;
+}
+
+p.parrafo1 {
+    color: white;
+    font-size: 48px;
+    background-color: black;
+}
+
+#identificador {
+    color: white;
+    font-size: 24px;
+    background-color: black;
+}
+
+a.parrafo1 {
+    color: blue;
+    background-color: brown;
+}

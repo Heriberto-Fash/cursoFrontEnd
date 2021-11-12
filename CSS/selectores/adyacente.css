@@ -1,0 +1,19 @@
+h2+h3 {
+    color: fuchsia;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/*SELECTOR DE ATRIBUTO*/
+
+[class] {
+    color: red;
+    font-size: 48px;
+    background-color: pink;
+}
+
+[class="parrafo1"] {
+    color: seagreen;
+    background-color: black;
+}

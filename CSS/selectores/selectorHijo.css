@@ -1,0 +1,10 @@
+h1>a {
+    color: coral;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p>a {
+    color: crimson;
+    font-size: 72px;
+}
