@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LineTo</title>
+</head>
+
+<body>
+    <canvas width="150" height="150" id="canvas">
+
+
+    </canvas>
+
+    <script type="application/javascript">
+        var canvas = document.getElementById("canvas");
+        ctx = canvas.getContext("2d");
+
+        // ctx.fillStyle = ("green");
+        //ctx.fillStyle = ("#FFA500");
+        ctx.fillStyle = "rgb(255,77,71)";
+        ctx.fillStyle = "rgba(227,255,71,0.7)";
+        ctx.beginPath();
+        ctx.moveTo(25, 25);
+        ctx.lineTo(105, 25);
+        ctx.lineTo(25, 105);
+        ctx.closePath();
+        ctx.fill();
+
+        //ctx.strokeStyle = "blue";
+        ctx.beginPath();
+        ctx.moveTo(125, 125);
+        ctx.lineTo(125, 45);
+        ctx.lineTo(45, 125);
+        ctx.closePath();
+        ctx.stroke();
+    </script>
+</body>
+
+</html>
