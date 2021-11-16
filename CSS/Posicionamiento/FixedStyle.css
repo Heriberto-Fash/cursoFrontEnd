@@ -1,0 +1,7 @@
+/*Con el posicionamiento fijo la imagen se mantiene al momento de hacer scroll*/
+
+.fixed {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
