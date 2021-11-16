@@ -1,0 +1,13 @@
+/*Todos aquellos contenedorea cercanos no van a respetar si un contenedor está de manera absoluta
+*/
+
+
+/*su posicion se debe a la esquina superior izquierda*/
+
+.absolute {
+    position: absolute;
+    right: 0;
+    top: 0;
+    right: 0;
+    left: 100px;
+}
