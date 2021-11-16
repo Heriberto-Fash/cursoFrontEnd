@@ -1,0 +1,28 @@
+body {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 4ex;
+    color: purple;
+    background-color: yellow;
+}
+
+.parrafoEM {
+    font-size: 2em;
+    color: rgb(90, 252, 95);
+}
+
+.parrafoPX {
+    font-size: 48px;
+}
+
+
+/* https://cssgradient.io */
+
+.div1 {
+    width: 50%;
+    height: 40%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(355deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
