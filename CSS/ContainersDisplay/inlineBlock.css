@@ -1,0 +1,33 @@
+div {
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    display: inline-block;
+    float: left;
+}
+
+.caja1 {
+    background-color: red;
+}
+
+.caja2 {
+    background-color: yellow;
+}
+
+.caja3 {
+    background-color: green;
+}
+
+p {
+    display: inline-block;
+}
+
+a {
+    background-color: white;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+
+/*El inline-block combina caracteristicas de inline y del block*/

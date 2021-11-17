@@ -1,0 +1,7 @@
+a {
+    background-color: green;
+    /*convertimos elemento en linea a elemento  bloque*/
+    display: block;
+    width: 50%;
+    height: 100px;
+}

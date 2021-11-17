@@ -1,0 +1,29 @@
+/*Si un elemento en linea contiene a un elemento en bloque este desaparece, a continuacion caja1 y caja 1B sin iguales, pero al contener a <p> el cual es un elemento en bloque caja1 desaparece*/
+
+.caja1 {
+    background-color: deeppink;
+    display: inline;
+}
+
+.caja1B {
+    background-color: deeppink;
+}
+
+.caja2 {
+    background-color: khaki;
+}
+
+
+/*Aqui un elemento en bloque <p> contiene a un elemento en linea <a>*/
+
+.caja3 {
+    background-color: coral;
+}
+
+p {
+    display: inline;
+    /*la siguiente regla no se aplica, por que los elementos en linea van a aplicar el largo y el ancho segun su contenido*/
+    margin-top: 100px;
+    /*se ilumninan las etiquetas <p>*/
+    background-color: rgba(000, 100, 255, 0.3);
+}

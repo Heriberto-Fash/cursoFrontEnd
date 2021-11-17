@@ -1,0 +1,21 @@
+div {
+    display: inline;
+    float: left;
+    margin: 1em;
+    padding: .3em;
+    border: 2px solid black;
+    width: 100px;
+    height: 150px;
+}
+
+.caja1 {
+    overflow: visible;
+}
+
+.caja2 {
+    overflow: hidden;
+}
+
+.caja3 {
+    overflow: scroll;
+}
